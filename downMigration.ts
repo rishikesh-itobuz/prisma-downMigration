@@ -102,4 +102,4 @@ module.exports = { downMigration, branchDataBase, rollbackMigration, revertMigra
     "rollback:migrations": "npx run-func src/downMigration.ts rollbackMigration" */
 
 
-// pacakageNeeded : run-func
+// pacakageNeeded : run-func, child-process
